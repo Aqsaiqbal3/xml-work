@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mobileshop>
+<mobile>
+    <id>001</id>
+    <name>samsung A32</name>
+    <brand>Samsung</brand>
+    <price>56000</price>
+</mobile>
+
+
+<mobile>
+    <id>002</id>
+    <name>Iphone 13 pro max</name>
+    <brand>Apple</brand>
+    <price>456000</price>
+</mobile>
+
+<mobile>
+    <id>003</id>
+    <name>Tecno camon 32</name>
+    <brand>Tecno</brand>
+    <price>23000</price>
+</mobile>
+
+<mobile>
+    <id>004</id>
+    <name>Infinix A30</name>
+    <brand>Infinix</brand>
+    <price>36000</price>
+</mobile>
+
+<mobile>
+    <id>001</id>
+    <name>Pixcel 5</name>
+    <brand>Google</brand>
+    <price>66000</price>
+</mobile>
+
+
+
+</mobileshop>

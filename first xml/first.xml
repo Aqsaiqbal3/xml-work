@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<results>
+
+<student1>
+    <Batch>2306c2</Batch>
+    <stdname>Aqsa</stdname>
+    <course>XML</course>
+    <marks>50</marks>
+    <grade>A</grade>
+</student1>
+
+<student2>
+    <Batch>2306c2</Batch>
+    <stdname>Maria</stdname>
+    <course>XML</course>
+    <marks>30</marks>
+    <grade>B</grade>
+</student2>
+
+
+<student3>
+    <Batch>2306c2</Batch>
+    <stdname>Zainab</stdname>
+    <course>XML</course>
+    <marks>20</marks>
+    <grade>c</grade>
+</student3>
+
+
+
+
+
+
+
+</results>

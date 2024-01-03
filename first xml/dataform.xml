@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<FalconStationary>
+<product>
+<ProductId>1</ProductId>
+<ProductName>Pencil</ProductName>
+<Quantity>12000 Units</Quantity>
+<PricePerUnit>10</PricePerUnit>
+<PricePerDozen>110</PricePerDozen>
+<InStock>Yes</InStock>
+</product>
+
+<product>
+<ProductId>2</ProductId>
+<ProductName>Pen</ProductName>
+<Quantity>6000 Units</Quantity>
+<PricePerUnit>60</PricePerUnit>
+<PricePerDozen>700</PricePerDozen>
+<InStock>Yes</InStock>
+</product>
+
+<product>
+<ProductId>3</ProductId>
+<ProductName>Pencil</ProductName>
+<Quantity>15000 Units</Quantity>
+<PricePerUnit>7</PricePerUnit>
+<PricePerDozen>80</PricePerDozen>
+<InStock>Yes</InStock>
+</product>
+
+<product>
+<ProductId>4</ProductId>
+<ProductName>Sharpner</ProductName>
+<Quantity>0 Units</Quantity>
+<PricePerUnit>10</PricePerUnit>
+<PricePerDozen>110</PricePerDozen>
+<InStock>No</InStock>
+</product>
+
+<product>
+<ProductId>5</ProductId>
+<ProductName>Board Marker</ProductName>
+<Quantity>500 Units</Quantity>
+<PricePerUnit>80</PricePerUnit>
+<PricePerDozen>900</PricePerDozen>
+<InStock>Yes</InStock>
+</product>
+</FalconStationary>
