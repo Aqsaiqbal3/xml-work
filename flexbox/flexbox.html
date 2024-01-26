@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(229, 239, 243);
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px;
+            justify-content: space-evenly;
+        }
+       
+        header{
+            text-align: center;
+            background-color:darkgray ;
+            padding: 20px;
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(190, 210, 248);
+        }
+        nav a{
+            text-decoration: none;
+            padding: 10px;
+            color: rgb(97, 96, 96);
+            transition: all 0.3s linear;
+        }
+        nav a:hover{
+            transform: scale(1.2);
+        }
+        .card{
+            /* display: flex; */
+            width: 300px;
+            margin: 20px;
+            background-color: floralwhite;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: tranform 0.3s ease-in-out;
+            box-shadow: 3px 3px 3px 3px rgb(156, 156, 158);
+
+        }
+        .card:hover{
+            transform: scale(1.05);
+        }
+        .card img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .card-content{
+            padding: 20px;
+        }
+        h2{
+            color: rgb(29, 28, 28);
+        }
+        p{
+            color: rgb(146, 143, 143);
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>RealWorld Flexbox Example </h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        
+    </nav>
+    <main>
+        <!-- <video autoplay muted loop id="myVideo" style="width: 100%;">
+            <source src="./pexels-adrien-jacta-5358746 (2160p).mp4" type="video/mp4" >
+          </video> -->
+        <div class="card">
+            <img src="http://tripvoronezh.ru/wp-content/uploads/2023/08/6fphp0oqacq.jpg" alt="dolphin" height="200px">
+            <div class="card-content">
+                <h2>Cute Dolphin</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ut ab? Laborum, quod possimus
+                    reprehenderit vel eligendi ullam ab illo debitis corrupti voluptatum, ducimus neque molestias facere
+                    blanditiis est et?</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/4d/9b/fc/4d9bfc53506f617a99190327ad550634.jpg" alt="dolphin" height="200px">
+            <div class="card-content">
+                <h2>Another Dolphin</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ut ab? Laborum, quod possimus
+                    reprehenderit vel eligendi ullam ab illo debitis corrupti voluptatum, ducimus neque molestias facere
+                    blanditiis est et?</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://avatars.mds.yandex.net/i?id=580dd11d2f8bcd32a4478b5067f7bf3db5d85b92-9850860-images-thumbs&ref=rim&n=33&w=285&h=200" alt="dolphin" height="200px">
+            <div class="card-content">
+                <h2>Third Dolphin</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, ut ab? Laborum, quod possimus
+                    reprehenderit vel eligendi ullam ab illo debitis corrupti voluptatum, ducimus neque molestias facere
+                    blanditiis est et?</p>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
